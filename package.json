@@ -1,0 +1,16 @@
+{
+  "name": "@panda/kernel-examples",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Real-library adapter examples for @panda/kernel -- anything that needs an external dependency (express, mongodb, a real npm-resolved module, or any real @panda/* package) lives here, not inside @panda/kernel itself. See @panda/kernel's own examples/ for the small, dependency-free demos that stay there.",
+  "devDependencies": {
+    "@panda/kernel": "*",
+    "@panda/example-auth-module": "*",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.8",
+    "express": "^4.22.3",
+    "mongodb": "^7.7.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.4.5"
+  }
+}
